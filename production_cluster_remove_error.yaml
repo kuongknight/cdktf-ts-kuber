@@ -10,7 +10,6 @@ metadata:
     lifecycle.cattle.io/create.mgmt-cluster-rbac-remove: "true"
     networking.management.cattle.io/enable-network-policy: "true"
     provisioner.cattle.io/ke-driver-update: updated
-  creationTimestamp: "2022-08-06T16:04:08Z"
   finalizers:
   - controller.cattle.io/cluster-agent-controller-cleanup
   - controller.cattle.io/cluster-scoped-gc
@@ -546,8 +545,6 @@ metadata:
     operation: Update
     time: "2022-08-26T02:17:36Z"
   name: c-f8jgb
-  resourceVersion: "7085780"
-  uid: 3b2eebf8-fcd6-4fc9-947d-8b7cfa7219f1
 spec:
   agentEnvVars:
   - name: foo
